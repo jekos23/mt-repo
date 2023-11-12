@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Anonymous Pro 1";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro 2";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Anonymous Pro 1", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro 1", sans-serif;
+	font-size: 48px;
+}
+
+.container {
+	display: block;
+    border-radius: 12px;
+    border: 0px solid var(--text_gray, #A1A6B4);
+    background: white; 
+    color: black; 
+    width: 400px;
+    flex-wrap: wrap;
+}
+.title_footer {
+    font-family: "Anonymous Pro 1", sans-serif;
+    color: white;
+    font-size: 52px;
+}
+footer {
+    color: white;
+}
+h3 {
+  font-family: "Anonymous Pro 1", sans-serif;
+	font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro 1", sans-serif;
+  font-size: 14px;
+}
+.middle {
+    background-color:rgb(201, 201, 201);
+}
+
+img {
+	width: 370px;
+}
+.title {
+    width: 240px; 
+}
+.container__title {
+    color: var(--black, #121723);
+    font-family: "Anonymous Pro 1", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container__text {
+    color: var(--black, #121723);
+    font-family: "Anonymous Pro 1", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media screen and (max-width: 900px) {
+
+    .card__text_author {
+        font-size: 16px;
+    }
+
+    .footer__text {
+        font-size: 24px;
+    }
+}
