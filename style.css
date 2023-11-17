@@ -205,7 +205,7 @@ footer .nav-link {
 @media screen and (max-width: 900px) {
     .general_title {
         margin-left: 0px;
-        font-size: small;
+        font-size: 32px;
     }
     .header-container{ 
         display: flex;
@@ -223,7 +223,6 @@ footer .nav-link {
         height: 100%;
         border-radius: 12px;
         background: white;
-        margin-left: 25px;
     }
     .cards {
         display: flex;
@@ -233,7 +232,7 @@ footer .nav-link {
         height: 100%;
         border-radius: 12px;
         background: white;
-        margin-left: 60px;
+        justify-items: center;
     }
     .footer-content{
         display: flex;
