@@ -204,7 +204,7 @@ footer .nav-link {
 }
 @media screen and (max-width: 900px) {
     .general_title {
-        margin-left: 0px;
+        margin-left: 24px;
         font-size: 32px;
     }
     .header-container{ 
