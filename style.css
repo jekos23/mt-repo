@@ -233,6 +233,7 @@ footer .nav-link {
         border-radius: 12px;
         background: white;
         justify-items: center;
+        margin-right: 24px;
     }
     .footer-content{
         display: flex;
