@@ -203,6 +203,10 @@ footer .nav-link {
     margin: 24px 0;
 }
 @media screen and (max-width: 900px) {
+    .general_title {
+        margin-left: 0px;
+        font-size: small;
+    }
     .header-container{ 
         display: flex;
         flex-direction: column;
@@ -219,7 +223,7 @@ footer .nav-link {
         height: 100%;
         border-radius: 12px;
         background: white;
-        margin-left: 60px;
+        margin-left: 25px;
     }
     .cards {
         display: flex;
