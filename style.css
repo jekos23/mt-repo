@@ -106,6 +106,7 @@ h1 {
     flex-wrap: wrap;
     gap: 24px;
     margin: 0 auto;
+    width: 1142px;
 }
 
 /* стили для карточки кроссовок */
