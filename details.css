@@ -137,18 +137,18 @@
     border-radius: 50px;
     padding: 48px;
     width: 1044px;
-    margin-right: 30px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin: 32px auto;
     font-family: "Anonymous Pro";
     height: 1600px;
-    float: right;
   }
   .sn-img{
     height:  600px;
     margin-left: 20px;
   }
-  
+  .wrapper {
+    display: flex;
+    gap: 24px;
+  }
   .sn-text{
     font-size: 20px;
     font-style: normal;
@@ -172,8 +172,6 @@
     display: inline-flex;
     width: 300px;
     height: 30px;
-    transform: translate(540px);
-    transform: translate(540px,-800px);
   }
   .sneaker_infotext_title {
     color: var(--black, #121723);
@@ -183,16 +181,12 @@
     display: inline-flex;
     width: 300px;
     height: 30px;
-    transform: translate(540px);
-    transform: translate(540px,-800px);
   }
   .sneak_lin{
     height: 1px;
     align-self: stretch;
     background: var(--black, #121723);
     width: 506px;
-    transform: translate(540px);
-    transform: translate(540px,-800px);
   }
   .info{
   color: var(--black, #121723);
@@ -200,8 +194,6 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  transform: translate(0px,-800px);
-  float: right;
   }
   
   @media screen and (max-width: 900px) {
@@ -232,7 +224,7 @@
     padding:32px;
     border: 12px;
     height: auto;
-    float:none;
+    float:none; 
     margin-left: auto;
     margin-right: auto;
   }
@@ -278,7 +270,6 @@
     display: inline;
     width: auto;
     margin: auto;
-    float: right;
     padding: 8px;
   }
   .sneak_lin{
@@ -293,5 +284,16 @@
     padding: 0;
     margin: 0;
   }
-  
+  .sneaker_infotext_title {
+    font-size: 16px;
+    transform: none;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    padding: 8px;
+    font-family: Anonymous Pro;
+    font-size: 30px;
+    font-weight: 400; 
+  }
   }
