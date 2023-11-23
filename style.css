@@ -106,7 +106,8 @@ h1 {
     flex-wrap: wrap;
     gap: 24px;
     margin: 20px auto 30px;
-    width: 1142px;
+    width: 100%;
+    max-width: 1140px;
 }
 
 /* стили для карточки кроссовок */
@@ -211,7 +212,6 @@ footer .nav-link {
         font-size: 32px;
     }
     .header-container{ 
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
         align-items: center;
